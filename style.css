@@ -9,6 +9,11 @@ img{
     margin-top: 10vh;
     width:80vw
 }
+h1{
+    font-size: 2em;
+    margin-bottom: 5vh;
+    color:#e8f1ff
+}
 .startmenue{
     border: 5px solid #000814;
     gap: 20px;
