@@ -29,23 +29,24 @@
             <h1>Willkommen bei den Dienstleistungsbuben!</h1>
         </div>
 
-        <div class="startmenue">
-            <p class="starttitle">Inhalt</p>
+        <p id="startp">Inhalt</p>
+        <nav class="startmenue">
                 <p><a href="#ueber-uns">Über uns</a></p>
                 <p><a href="#dienstleistungen">Dienstleistungen</a></p>
                 <p><a href="#preise">Preise</a></p>
                 <p><a href="#region">Region</a></p>
-                <p><a href="#kontakt">Kontakt</a></p>
+                <p><a href="#cardkontakt">Kontakt</a></p>
+                <p><a href="#wer">Wer wir sind</a></p>
 <button type="button" class="mail-button" onclick="window.location.href='mailto:info@dienstleistungsbuben.ch'">
   Sende eine E-Mail
 </button>
-        </div>
+        </nav>
     </header>
 
     <main>
 
-        <div id="ueber-uns" class="ueber-uns">
-            <h2>Über uns</h2>
+        <h2>Über uns</h2>
+        <div id="ueber-uns" class="card">
             <p>Wir sind eine Gruppe Bezirksschüler aus der Region Zofingen.
                 Wir möchten in unserer Freizeit anderen helfen und bieten
                 deswegen auch Dienstleistungen an.</p>
@@ -56,27 +57,27 @@
 
             <div class="dienstleistungs-karten">
 
-                <div class="dienstleistung-it-support">
-                    <h2>Computer & Elektronikhilfe</h2>
+                <div id="dienstleistung-it-support" class="card carddienstleistung">
+                <h3>Computer & Elektronikhilfe</h3>
                     <p>Wir helfen bei Problemen mit Computern, Handys, WLAN, E-Mail und anderer Technik. Egal ob etwas nicht funktioniert, eingerichtet werden muss oder Sie einfach nicht weiterwissen werden wir versuchen, eine einfache und verständliche Lösung zu finden.</p>
                 </div>
 
-                <div class="dienstleistung-gartenarbeit">
+                <div id="dienstleistung-gartenarbeit" class="card carddienstleistung">
                     <h3>Gartenarbeit</h3>
                     <p>Wir unterstützen Sie bei einfachen Arbeiten im Garten rund ums Haus. Dazu gehören kleinere Aufgaben, bei denen eine helfende Hand gebraucht wird.</p>
                 </div>
 
-                <div class="dienstleistung-einkaufsservice">
+                <div id="dienstleistung-einkaufsservice" class="card carddienstleistung">
                     <h3>Einkaufsservice</h3>
                     <p>Sie können gerade nicht selbst einkaufen oder möchten sich den Weg sparen? Wir übernehmen den Einkauf für Sie und sprechen vorher gemeinsam ab, was benötigt wird.</p>
                 </div>
 
-                <div class="dienstleistung-dog-walking">
+                <div id="dienstleistung-dog-walking" class="card carddienstleistung">
                     <h3>Dog Walking</h3>
                     <p>Wir gehen mit Ihrem Hund spazieren und sorgen dafür, dass er Bewegung und etwas Abwechslung bekommt. Längere Spaziergänge oder besondere Wünsche können wir individuell absprechen.</p>
                 </div>
 
-                <div class="dienstleistung-schneeraeumen">
+                <div id="dienstleistung-schneeraeumen" class="card carddienstleistung   ">
                     <h3>Schneeräumen</h3>
                     <p>Im Winter helfen wir dabei, Wege und Treppen von Schnee zu befreien. Das Schneeräumen bieten wir am Wochenende und nach vorheriger Absprache an.</p>
                 </div>
@@ -84,19 +85,18 @@
             </div>
         </div>
 
-<div id="preise" class="preise">
     <h2>Preise</h2>
 
-    <div class="preisliste">
-        <p><strong>Computer & Elektronikhilfe</strong></p>
+    <div class="card" id="preise">
+        <p class="preis"><strong>Computer & Elektronikhilfe</strong></p>
             <p>Grundpreis CHF 20. Ab jeder angefangenen 30-Minuten-Einheit kommen CHF 10 dazu.
         </p>
 
-        <p><strong>Gartenarbeit</strong></p>
+        <p class="preis"><strong>Gartenarbeit</strong></p>
            <p> CHF 25 pro Stunde.
         </p>
 
-<p><strong>Einkaufsservice</strong></p>
+<p class="preis"><strong>Einkaufsservice</strong></p>
 <p class="einkaufsliste">Bis CHF 30: CHF 10</p>
 <p class="einkaufsliste">Bis CHF 40: CHF 15</p>
 <p class="einkaufsliste">Bis CHF 70: CHF 25</p>
@@ -104,41 +104,22 @@
 <p class="einkaufsliste">Bis CHF 150: CHF 40</p>
 <p class="einkaufsliste">Ab CHF 150: CHF 50</p>
 
-        <p><strong>Dog Walking</strong></p>
+        <p class="preis"><strong>Dog Walking</strong></p>
             <p>CHF 10 pro Hund für 30 Minuten. Jede weitere angefangene 30-Minuten-Einheit + CHF 10 pro Kunde.
         </p>
 
-        <p><strong>Schneeräumen</strong></p>
+        <p class="preis"><strong>Schneeräumen</strong></p>
             <p>Kurzer Weg CHF 20, langer Weg CHF 25, kurze Treppe CHF 10,
             lange Treppe CHF 15. Streusalz + CHF 5.
         </p>
         </div>
 </div>
-        <div id="region" class="region">
+        <div id="region" class="card">
             <h2>Region</h2>
             <p>Wir sind in Reiden, Brittnau, Wikon, Strengelbach, Zofingen und Oftringen unterwegs. Da wir selbst aus der Region kommen, sind wir flexibel und können viele Aufträge unkompliziert übernehmen.</p>
         </div>
-        <div id="wer" class="wer">
-            <h2>Wer wir sind</h2>
-            <p>Wir sind eine Gruppe von 5 Bezirksschüler im Alter von 14 bis 16 Jahren.</p>
 
-            <h3 class="andrej">Andrej Bajusic</h3>
-            <p>14, Leiter, IT, Marketing, Dienstleistungsbub</p>
-
-            <h3 class="sirio">Sirio Caputo</h3>
-            <p>14, Marketing, Dienstleistungsbub</p>
-
-            <h3 class="joel">Joel Müller</h3>
-            <p>15, E-Mails, Dienstleistungsbub</p>
-
-            <h3 class="aachim">Ahmed Mislimolski</h3>
-            <p>14, Dienstleistungsbub</p>
-
-            <h3 class="lian">Lian Stammbach</h3>
-            <p>14, Dienstleistungsbub</p>
-        </div>
-
-        <div id="kontakt" class="kontakt">
+        <div id="cardkontakt" class="card">
             <h2>Kontakt</h2>
 
             <div class="kontakt-daten">
@@ -152,6 +133,26 @@
                 </div>
 
             </div>
+        </div>
+                    <div id="wer" class="card cardname">
+            <h2>Wer wir sind</h2>
+            <p>Wir sind eine Gruppe von 5 Bezirksschüler im Alter von 14 bis 16 Jahren.</p>
+
+            <h3 class="name">Andrej Bajusic</h3>
+            <p>14, Leiter, IT, Marketing, Dienstleistungsbub</p>
+
+            <h3 class="name">Sirio Caputo</h3>
+            <p>14, Marketing, Dienstleistungsbub</p>
+
+            <h3 class="name">Joel Müller</h3>
+            <p>15, E-Mails, Dienstleistungsbub</p>
+
+            <h3 class="name">Ahmed Mislimolski</h3>
+            <p>14, Dienstleistungsbub</p>
+
+            <h3 class="name">Lian Stammbach</h3>
+            <p>14, Dienstleistungsbub</p>
+
         </div>
 <script data-goatcounter="https://dienstleistungsbuben.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
