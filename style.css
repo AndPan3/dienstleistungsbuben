@@ -65,6 +65,9 @@ h1 {
     padding: 40px;
     transition: padding 0.3s ease;
 }
+.social-link {
+    color: inherit;
+}
 
 .preis {
     margin-top: 5vh;
@@ -110,7 +113,29 @@ button {
     font-size: 1rem;
     cursor: pointer;
     margin-top: 2vh;
+
+        transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border 0.3s ease,
+    letter-spacing 0.3s ease;
 }
+.back a{
+    color: var(--primary-color);
+}
+button:hover {
+    background-color: #a07200;
+    color: #ffecd5;
+    letter-spacing: 0.1rem;
+    border: 7px solid #a07200;
+
+    transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border 0.3s ease,
+    letter-spacing 0.3s ease;
+ } /* I love hover so much */
+
 .button{
     margin-right:auto;
     margin-left:auto;
@@ -130,7 +155,10 @@ button {
     color 0.3s ease,
     border 0.3s ease,
     letter-spacing 0.3s ease;;}
-
+.button a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
 .button:hover{
     background-color: #a07200;
     color: #ffecd5;
