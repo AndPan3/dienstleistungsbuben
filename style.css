@@ -76,16 +76,20 @@ h1 {
     border: 7px solid #040539;
     color: var(--primary-color);
     letter-spacing: normal; 
+    padding: 10px;
         
     transition:
+    padding 0.3s ease,
     background-color 0.3s ease,
     color 0.3s ease;
 }
 #cardkontakt:hover {
     background-color: #a07200;
     color: #ffecd5;
+    padding: 40px;
 
     transition:
+    padding 0.3s ease,
     background-color 0.3s ease,
     color 0.3s ease;
 }
